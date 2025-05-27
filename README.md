@@ -64,7 +64,7 @@ This document provides a comprehensive list of RCON (Remote Console) commands fo
 | `g_warmup <seconds>`  | Warmup duration              |                  |
 | \`g\_allowvote <0     | 1>\`                         | Allow map voting |
 
-👤 Player Management
+## 👤 Player Management
 | Command                 | Description                      |
 | ----------------------- | -------------------------------- |
 | `banClient <clientnum>` | Ban by slot                      |
@@ -78,7 +78,7 @@ This document provides a comprehensive list of RCON (Remote Console) commands fo
 | `god`                   | Enable godmode (requires cheats) |
 | `noclip`                | Enable noclip mode               |
 
-🔧 Server Variables
+## 🔧 Server Variables
 | Command                   | Description        |                       |
 | ------------------------- | ------------------ | --------------------- |
 | `sv_hostname "<name>"`    | Server name        |                       |
@@ -92,7 +92,7 @@ This document provides a comprehensive list of RCON (Remote Console) commands fo
 | \`sv\_pure <0             | 1>\`               | Force pure clients    |
 | \`sv\_cheats <0           | 1>\`               | Enable cheat commands |
 
-🛠️ Weapon and Loadout Config
+## 🛠️ Weapon and Loadout Config
 | Command                      | Description |                       |
 | ---------------------------- | ----------- | --------------------- |
 | \`scr\_allow\_bar <0         | 1>\`        | Enable BAR            |
@@ -105,7 +105,7 @@ This document provides a comprehensive list of RCON (Remote Console) commands fo
 | \`scr\_allow\_smoke <0       | 1>\`        | Enable smoke grenades |
 | \`scr\_allow\_bazooka <0     | 1>\`        | Enable bazookas       |
 
-📊 Match Control & Scoreboard
+## 📊 Match Control & Scoreboard
 | Command                    | Description          |                               |
 | -------------------------- | -------------------- | ----------------------------- |
 | `scoreboard`               | Show live scoreboard |                               |
@@ -116,7 +116,7 @@ This document provides a comprehensive list of RCON (Remote Console) commands fo
 | \`g\_teamautojoin <0       | 1>\`                 | Auto-assign teams             |
 | \`g\_redCrosshairs <0      | 1>\`                 | Show red aim cross on enemies |
 
-🔎 Debugging and Logs
+## 🔎 Debugging and Logs
 | Command                | Description         |                         |
 | ---------------------- | ------------------- | ----------------------- |
 | \`logfile <0           | 1>\`                | Enable log file         |
@@ -128,7 +128,7 @@ This document provides a comprehensive list of RCON (Remote Console) commands fo
 | `record <name>`        | Record a demo       |                         |
 | `stoprecord`           | Stop demo recording |                         |
 
-🎮 Fun / Custom / Cheats (for testing)
+## 🎮 Fun / Custom / Cheats (for testing)
 | Command               | Description                   |                     |
 | --------------------- | ----------------------------- | ------------------- |
 | `give all`            | Give all weapons              |                     |
@@ -140,7 +140,7 @@ This document provides a comprehensive list of RCON (Remote Console) commands fo
 | `toggle r_fullscreen` | Toggle fullscreen             |                     |
 | `vid_restart`         | Restart video settings        |                     |
 
-🗺️ Maps List (for map command)
+## 🗺️ Maps List (for map command)
 | Map Code          | Map Name     |
 | ----------------- | ------------ |
 | `mp_carentan`     | Carentan     |
@@ -154,7 +154,7 @@ This document provides a comprehensive list of RCON (Remote Console) commands fo
 | `mp_decoy`        | Decoy        |
 | `mp_leningrad`    | Leningrad    |
 
-📌 Tips
+## 📌 Tips
 Always set the rcon password before issuing commands:
 rcon password mysecurepassword
 
